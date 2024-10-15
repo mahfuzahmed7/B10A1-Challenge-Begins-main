@@ -14,6 +14,7 @@ body {
     height: 652px;
     margin-left: 40px;
     margin-top: 40px;
+    background-color: none;
 }
 
 .group-png img {
@@ -76,7 +77,7 @@ body {
 /* web development section styles */
 .web-development-container {
     width: 1140px;
-    height: 1393px;
+    height: 1675px;
     padding-top: 700px;
     margin-left: 200px;
     background: rgba(13, 19, 33, 0.02);
@@ -112,17 +113,17 @@ body {
 .web-development-div1 {
     width: 946px;
     height: 336px;
-    margin-left: 105px;
-    border-radius: 16px;
+    margin-left: 90px;
+    margin-bottom: 35px;
     padding-top: 85px;
+    border-radius: 16px;
     background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
-
 }
 
 .web-development-part1 {
     width: 850px;
     height: 240px;
-    margin-left: 45px;
+    margin: 48px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -180,19 +181,74 @@ body {
 .web-development-div2 {
     width: 946px;
     height: 336px;
-    margin-left: 105px;
-    border-radius: 16px;
+    margin-left: 90px;
+    margin-bottom: 35px;
     padding-top: 85px;
+    border-radius: 16px;
     background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+
 }
 
 .web-development-part2 {
     width: 850px;
     height: 240px;
-    margin-left: 45px;
+    margin: 48px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+
+}
+
+/* my inspiration section styles */
+.my-inspiration-container {
+    width: 1140px;
+    height: 775px;
+    margin-top: 90px;
+    margin-left: 200px;
+}
+
+.my-inspiration-div-part1 {
+    width: 852px;
+    height: 113px;
+    margin-left: 145px;
+
+}
+
+.my-inspiration-title {
+    max-width: 852px;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    color: rgb(13, 19, 33);
+    margin: 0 auto;
+
+
+}
+
+.my-inspiration-description {
+    width: 852px;
+    height: 52px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    opacity: 0.7;
+
+}
+
+.my-inspiration-video {
+    width: 1140px;
+    height: 614px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+
+}
+
+.my-inspiration-box iframe {
+    width: 1076px;
+    height: 550px;
+    margin: 32px 32px;
 
 }
