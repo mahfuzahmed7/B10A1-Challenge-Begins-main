@@ -414,6 +414,7 @@ body {
 .i-need-support-container {
     width: 1140px;
     height: 313px;
+    margin-left: 200px;
     background-image: url(../assets/handshake.jpg);
     background-size: 1140px 313px;
     border-radius: 16px;
@@ -472,4 +473,49 @@ body {
     font-size: 20px;
     font-weight: 600;
     text-align: center;
+}
+
+/* footer section styles */
+.footer-container {
+    width: 1440px;
+    height: 100px;
+    margin-top: 80px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    border: 1px solid rgba(13, 19, 33, 0.03);
+
+}
+
+.footer-div {
+    width: 1140px;
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 200px;
+    margin-top: 32px;
+    border: 1px solid rgba(13, 19, 33, 0.03);
+    border: none;
+
+
+}
+
+.footer-div p {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+.footer-img {
+    width: 157.01px;
+    height: 36px;
+    gap: 32px;
+    margin-left: 535px;
+}
+
+.footer-img img {
+    margin-left: 9px;
 }
